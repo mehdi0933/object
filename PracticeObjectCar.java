@@ -33,9 +33,10 @@ public class PracticeObjectCar {
     }
 
     public void started(boolean isEngineStarted){
-        if(this.isEngineStarted == isEngineStarted){
+        if(isEngineStarted == false){
             System.out.println("le moteur ne tourne pas");
-        }{
+        }
+        if(isEngineStarted == true){
             System.out.println("le moteur tourne");
         }
     }
