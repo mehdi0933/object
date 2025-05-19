@@ -44,7 +44,7 @@ public class BasicStopwatchV2{
         // System.out.printf("%02d:%02d:%02d%n", hours , minute, seconde);
     }
 
-    public void cookHardBoiledEggs() throws InterruptedException  {
+    public void cookHardBoiledEggsChrono() throws InterruptedException  {
 
         while (isChrno) {
 
