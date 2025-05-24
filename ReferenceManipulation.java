@@ -16,8 +16,9 @@ public class ReferenceManipulation {
     public static void updateCounter(ReferenceManipulation object){
         object.counter++;
     }
-    
+
     public static void main(String[] args) {
+        
         ReferenceManipulation reference1 = new ReferenceManipulation("porsche");
         ReferenceManipulation.updateCounter(reference1);
         reference1.displayReferenceName();
