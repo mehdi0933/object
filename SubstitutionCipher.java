@@ -14,8 +14,8 @@ public class SubstitutionCipher {
          *  Texte à chiffrer
          */
         String textToEncrypt = "ce message secret ne doit pas arriver entre de mauvaises mains !";
-
-
+        boolean isEspece = true;
+        boolean isendOfMessage = true;
         // Ecrivez le code ci-dessous
 
         for (int i = 0; i < textToEncrypt.length(); i++){
@@ -29,12 +29,13 @@ public class SubstitutionCipher {
                     changeLetter = textToEncrypt.charAt(i);
                     changeLetter = substitutionAlphabet.charAt(j) ;
                     System.out.print(changeLetter);
-                }else if (textToEncrypt.charAt(i) == espace){
+                    isEspece = true;
+                }else if (textToEncrypt.charAt(i) == espace && isEspece ){
                     System.out.print(textToEncrypt.charAt(i));
-                    break;
-                }else if (textToEncrypt.charAt(i) == exclamationMark){
+                    isEspece = false;
+                }else if (textToEncrypt.charAt(i) == exclamationMark && isendOfMessage){
                     System.out.print(exclamationMark);
-                    break;
+                    isendOfMessage = false;
                 }
 
             }
