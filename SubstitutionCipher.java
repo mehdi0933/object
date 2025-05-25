@@ -41,3 +41,7 @@ public class SubstitutionCipher {
         }
     }
 }
+/*
+    resustat de la console
+    rw swccngw cwrmwu ow hayu qnc nmmyfwm woumw hw snvfnycwc snyoc !
+ */
