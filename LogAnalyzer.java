@@ -6,10 +6,18 @@ public class LogAnalyzer {
         String codeError2 = "Application: JavaCoreApp - Log Level: ERROR - Error code XIZUHZD";
 
         if (serverLogs.contains(codeError1) && serverLogs.contains(codeError2)){
-            System.out.println("Les d'errors de l'" + codeError1 + " " + codeError1  );
+            System.out.println("Les d'errors sont:");
+            System.out.println(codeError1);
+            System.out.println(codeError2);
 
         }
-
     }
 }
-
+/**
+ * resultat de la console
+ *
+ * Les d'errors sont:
+ * Application: JavaCoreApp - Log Level: ERROR - Error code OAJFUEH
+ * Application: JavaCoreApp - Log Level: ERROR - Error code XIZUHZD
+ *
+ */

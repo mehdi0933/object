@@ -40,11 +40,21 @@ public class VowelCounter {
             }
 
         }
-        System.out.println("il y a " + counterA + " fois la lettre A");
-        System.out.println("il y a " + counterE + " fois la lettre E");
-        System.out.println("il y a " + counterI + " fois la lettre I");
-        System.out.println("il y a " + counterO + " fois la lettre O");
-        System.out.println("il y a " + counterU + " fois la lettre U");
-        System.out.println("il y a " + counterY + " fois la lettre Y");
+        System.out.println("Il y a " + counterA + " fois la lettre A.");
+        System.out.println("Il y a " + counterE + " fois la lettre E.");
+        System.out.println("Il y a " + counterI + " fois la lettre I.");
+        System.out.println("Il y a " + counterO + " fois la lettre O.");
+        System.out.println("Il y a " + counterU + " fois la lettre U.");
+        System.out.println("Il y a " + counterY + " fois la lettre Y.");
     }
 }
+/**
+ * resultat de la console
+ *
+ * Il y a 29 fois la lettre A.
+ * Il y a 38 fois la lettre E.
+ * Il y a 42 fois la lettre I.
+ * Il y a 29 fois la lettre O.
+ * Il y a 29 fois la lettre U.
+ * Il y a 0 fois la lettre Y.
+ */
