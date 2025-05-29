@@ -24,7 +24,7 @@ public class LogAnalyzer {
                     String codeErreur = code[1];
                     System.out.println("Code d'erreur trouvé : " + codeErreur);
                     nbErreurs++;
-                    
+
                 }
             }
         }
@@ -32,3 +32,11 @@ public class LogAnalyzer {
 
     }
 }
+
+/**
+ * sortie de console
+ *
+ * Code d'erreur trouvé : 502
+ * Code d'erreur trouvé : 504
+ * il y a 2 errurs
+ */
