@@ -7,9 +7,12 @@ public class ReversedString {
 
         for (int i = 0; i < text.length(); i++  ){
             System.out.print(text.charAt(textLength -i -1));
-
-
         }
 
     }
 }
+/**
+ *
+ * resultat de la console
+ * Bravo, vous avez réussi l'exercice !
+ */
